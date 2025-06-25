@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="he">
 <head>
@@ -11,110 +10,91 @@
             background-color: #f4f4f4;
             margin: 20px;
         }
+        h1 {
+            text-align: center;
+            font-size: 28px;
+            font-weight: bold;
+            color: #333;
+        }
         .section {
             margin-bottom: 40px;
         }
         .grid {
             display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            grid-template-columns: repeat(4, 1fr);
             gap: 20px;
         }
-        .card {
-            background-color: #fff;
+        .box {
+            background-color: white;
+            border: 1px solid #ccc;
             padding: 15px;
-            border-radius: 10px;
-            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-        }
-        .card img {
-            width: 100%;
-            height: auto;
             border-radius: 8px;
-        }
-        .card h3 {
-            font-size: 1.2em;
-            margin: 10px 0;
-        }
-        .card p {
-            font-size: 1em;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
         }
         iframe {
             width: 100%;
             height: 200px;
-            border: none;
-            border-radius: 10px;
+        }
+        img {
+            width: 100%;
+            height: 150px;
+            object-fit: cover;
+        }
+        a {
+            color: #007bff;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
         }
     </style>
 </head>
 <body>
+    <h1>תמיכה מצלמות טלוויזיה מעגל סגור</h1>
 
     <div class="section">
         <h2>🎥 סרטונים</h2>
         <div class="grid">
-            <div class="card"><iframe src="https://www.youtube.com/embed/VIDEO1"></iframe></div><div class="card"><iframe src="https://www.youtube.com/embed/VIDEO2"></iframe></div><div class="card"><iframe src="https://www.youtube.com/embed/VIDEO3"></iframe></div><div class="card"><iframe src="https://www.youtube.com/embed/VIDEO4"></iframe></div><div class="card"><iframe src="https://www.youtube.com/embed/VIDEO5"></iframe></div><div class="card"><iframe src="https://www.youtube.com/embed/VIDEO6"></iframe></div>
+            <!-- 8 סרטונים -->
+            <div class="box"><iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0" allowfullscreen></iframe></div>
+            <div class="box"><iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0" allowfullscreen></iframe></div>
+            <div class="box"><iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0" allowfullscreen></iframe></div>
+            <div class="box"><iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0" allowfullscreen></iframe></div>
+            <div class="box"><iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0" allowfullscreen></iframe></div>
+            <div class="box"><iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0" allowfullscreen></iframe></div>
+            <div class="box"><iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0" allowfullscreen></iframe></div>
+            <div class="box"><iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0" allowfullscreen></iframe></div>
         </div>
     </div>
 
     <div class="section">
-        <h2>🛍️ מוצרים</h2>
+        <h2>🛒 מוצרים</h2>
         <div class="grid">
-            
-    <div class="card">
-        <img src="https://via.placeholder.com/300x200?text=Product+1" alt="Product 1">
-        <h3>🔥 מבצע שווה 🔥</h3>
-        <p>מסור חשמלי חכם עם תצוגה דיגיטלית</p>
-        <p>💲 מחיר: ₪27.46</p>
-        <p><a href="https://s.click.aliexpress.com/e/_omgS3AQ" target="_blank">🔗 למוצר</a></p>
-    </div>
-    
-    <div class="card">
-        <img src="https://via.placeholder.com/300x200?text=Product+2" alt="Product 2">
-        <h3>🔥 מבצע שווה 🔥</h3>
-        <p>מסור חשמלי חכם עם תצוגה דיגיטלית</p>
-        <p>💲 מחיר: ₪27.46</p>
-        <p><a href="https://s.click.aliexpress.com/e/_omgS3AQ" target="_blank">🔗 למוצר</a></p>
-    </div>
-    
-    <div class="card">
-        <img src="https://via.placeholder.com/300x200?text=Product+3" alt="Product 3">
-        <h3>🔥 מבצע שווה 🔥</h3>
-        <p>מסור חשמלי חכם עם תצוגה דיגיטלית</p>
-        <p>💲 מחיר: ₪27.46</p>
-        <p><a href="https://s.click.aliexpress.com/e/_omgS3AQ" target="_blank">🔗 למוצר</a></p>
-    </div>
-    
-    <div class="card">
-        <img src="https://via.placeholder.com/300x200?text=Product+4" alt="Product 4">
-        <h3>🔥 מבצע שווה 🔥</h3>
-        <p>מסור חשמלי חכם עם תצוגה דיגיטלית</p>
-        <p>💲 מחיר: ₪27.46</p>
-        <p><a href="https://s.click.aliexpress.com/e/_omgS3AQ" target="_blank">🔗 למוצר</a></p>
-    </div>
-    
-    <div class="card">
-        <img src="https://via.placeholder.com/300x200?text=Product+5" alt="Product 5">
-        <h3>🔥 מבצע שווה 🔥</h3>
-        <p>מסור חשמלי חכם עם תצוגה דיגיטלית</p>
-        <p>💲 מחיר: ₪27.46</p>
-        <p><a href="https://s.click.aliexpress.com/e/_omgS3AQ" target="_blank">🔗 למוצר</a></p>
-    </div>
-    
-    <div class="card">
-        <img src="https://via.placeholder.com/300x200?text=Product+6" alt="Product 6">
-        <h3>🔥 מבצע שווה 🔥</h3>
-        <p>מסור חשמלי חכם עם תצוגה דיגיטלית</p>
-        <p>💲 מחיר: ₪27.46</p>
-        <p><a href="https://s.click.aliexpress.com/e/_omgS3AQ" target="_blank">🔗 למוצר</a></p>
-    </div>
-    
+            <!-- 8 מוצרים -->
+            <div class="box"><img src="https://ae01.alicdn.com/kf/Sf36444ba98e548e49ce7168a112e41a8V.jpg" alt=""><p>מוצר 1<br><a href="https://s.click.aliexpress.com/e/_omgS3AQ" target="_blank">לינק</a></p></div>
+            <div class="box"><img src="https://ae01.alicdn.com/kf/Sf36444ba98e548e49ce7168a112e41a8V.jpg" alt=""><p>מוצר 2<br><a href="https://s.click.aliexpress.com/e/_omgS3AQ" target="_blank">לינק</a></p></div>
+            <div class="box"><img src="https://ae01.alicdn.com/kf/Sf36444ba98e548e49ce7168a112e41a8V.jpg" alt=""><p>מוצר 3<br><a href="https://s.click.aliexpress.com/e/_omgS3AQ" target="_blank">לינק</a></p></div>
+            <div class="box"><img src="https://ae01.alicdn.com/kf/Sf36444ba98e548e49ce7168a112e41a8V.jpg" alt=""><p>מוצר 4<br><a href="https://s.click.aliexpress.com/e/_omgS3AQ" target="_blank">לינק</a></p></div>
+            <div class="box"><img src="https://ae01.alicdn.com/kf/Sf36444ba98e548e49ce7168a112e41a8V.jpg" alt=""><p>מוצר 5<br><a href="https://s.click.aliexpress.com/e/_omgS3AQ" target="_blank">לינק</a></p></div>
+            <div class="box"><img src="https://ae01.alicdn.com/kf/Sf36444ba98e548e49ce7168a112e41a8V.jpg" alt=""><p>מוצר 6<br><a href="https://s.click.aliexpress.com/e/_omgS3AQ" target="_blank">לינק</a></p></div>
+            <div class="box"><img src="https://ae01.alicdn.com/kf/Sf36444ba98e548e49ce7168a112e41a8V.jpg" alt=""><p>מוצר 7<br><a href="https://s.click.aliexpress.com/e/_omgS3AQ" target="_blank">לינק</a></p></div>
+            <div class="box"><img src="https://ae01.alicdn.com/kf/Sf36444ba98e548e49ce7168a112e41a8V.jpg" alt=""><p>מוצר 8<br><a href="https://s.click.aliexpress.com/e/_omgS3AQ" target="_blank">לינק</a></p></div>
         </div>
     </div>
 
     <div class="section">
         <h2>📝 תקצירים</h2>
         <div class="grid">
-            <div class="card"><p>תקציר תוכן מספר 1 לשימוש באתר, ניתן להחלפה בממשק ניהול</p></div><div class="card"><p>תקציר תוכן מספר 2 לשימוש באתר, ניתן להחלפה בממשק ניהול</p></div><div class="card"><p>תקציר תוכן מספר 3 לשימוש באתר, ניתן להחלפה בממשק ניהול</p></div><div class="card"><p>תקציר תוכן מספר 4 לשימוש באתר, ניתן להחלפה בממשק ניהול</p></div><div class="card"><p>תקציר תוכן מספר 5 לשימוש באתר, ניתן להחלפה בממשק ניהול</p></div><div class="card"><p>תקציר תוכן מספר 6 לשימוש באתר, ניתן להחלפה בממשק ניהול</p></div>
+            <!-- 8 תקצירים -->
+            <div class="box">🔥 מבצע שווה 🔥<br>תיאור של מוצר או מבצע<br><a href="#">קרא עוד</a></div>
+            <div class="box">🔥 מבצע שווה 🔥<br>תיאור של מוצר או מבצע<br><a href="#">קרא עוד</a></div>
+            <div class="box">🔥 מבצע שווה 🔥<br>תיאור של מוצר או מבצע<br><a href="#">קרא עוד</a></div>
+            <div class="box">🔥 מבצע שווה 🔥<br>תיאור של מוצר או מבצע<br><a href="#">קרא עוד</a></div>
+            <div class="box">🔥 מבצע שווה 🔥<br>תיאור של מוצר או מבצע<br><a href="#">קרא עוד</a></div>
+            <div class="box">🔥 מבצע שווה 🔥<br>תיאור של מוצר או מבצע<br><a href="#">קרא עוד</a></div>
+            <div class="box">🔥 מבצע שווה 🔥<br>תיאור של מוצר או מבצע<br><a href="#">קרא עוד</a></div>
+            <div class="box">🔥 מבצע שווה 🔥<br>תיאור של מוצר או מבצע<br><a href="#">קרא עוד</a></div>
         </div>
     </div>
-
 </body>
 </html>
