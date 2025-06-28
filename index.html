@@ -199,7 +199,7 @@ body {
     });
 </script>
 </head>
-<body><div style="text-align: right; font-size: 14px;"><span>כניסות: </span><span id="visitor-count">🔄</span><span> | כתובת IP: </span><span id="ip-address">...</span></div>
+<body><div style="display: flex; justify-content: space-between; align-items: center; padding: 10px; background-color: #333; color: white;"><span>כניסות: </span><span id="visitor-count">🔄</span><span> | כתובת IP: </span><span id="ip-address">...</span></div>
 <h1>תמיכה מצלמות טלוזיה במעגל סגור</h1>
 <div class="section">
 <h2 style="text-align: right;">מוצרים🛒	 </h2>
@@ -287,14 +287,14 @@ body {
   GV-IP Device Utility היא תוכנה של Geovision לאיתור מצלמות IP והגדרתן ברשת. 
   <a href="https://www.geovision.com.tw/download/product/" target="_blank">קישור</a></div>
 <div class="box">
-<div>
+  <div>
     איפוס מערכות היק היילוק דריפסטון –
     <a href="http://matkin.dedyn.io/reset_password.html" target="_blank">קישור</a>
-</div>
-<div>
+  </div>
+  <div>
     שליטה מרחוק TeamViewer –
     <a href="https://150.co.il/downloads/TeamViewerQS15.exe" target="_blank">קישור</a>
-</div>
+  </div>
 </div>
 <script>
 document.addEventListener("DOMContentLoaded", function () {
@@ -344,5 +344,5 @@ fetch("https://api.ipify.org?format=json")
   .catch(() => {
     document.getElementById("ip-address").innerText = "שגיאה";
   });
-</script></div></div></body>
+</script></body>
 </html>
