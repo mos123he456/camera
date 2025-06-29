@@ -201,7 +201,7 @@ body {
     });
 </script>
 </head>
-<body><div style="display: flex; justify-content: space-between; align-items: center; padding: 10px; background-color: #333; color: white;"><span>כניסות: </span><span id="visitor-count">🔄</span><span> | כתובת IP: </span><span id="ip-address">...</span></div>
+<body><div style="display: flex; justify-content: space-between; align-items: center; padding: 10px; background-color: #333; color: white;"><span></span><span id="visitor-count">🔄</span><span> | כתובת IP: </span><span id="ip-address">...</span></div>
 <h1>תמיכה מצלמות טלוזיה במעגל סגור</h1>
 <div class="section">
 <h2 style="text-align: right;">מוצרים🛒	 </h2>
@@ -340,7 +340,7 @@ fetch("https://api.ipify.org?format=json")
         document.getElementById("visitor-count").innerText = result.value;
       })
       .catch(() => {
-        document.getElementById("visitor-count").innerText = "שגיאה";
+        document.getElementById("visitor-count").innerText = "";
       });
   })
   .catch(() => {
